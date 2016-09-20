@@ -1,1 +1,4 @@
-module.exports = function (cb) { cb(null, 'Bye bye'); }
+module.exports = function (cb) { 
+  console.log("I want to commit");
+  cb(null, 'Hello'); 
+}
